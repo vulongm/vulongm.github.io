@@ -1,0 +1,38 @@
+.content {
+  color: white;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  color: white;
+  font-size: calc(10px + 1vmin);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  width: calc(15px + 2vmin);
+  height: calc(15px + 2vmin);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: calc(15px + 2vmin);;
+  height: calc(15px + 2vmin);
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.title {
+  font-weight: 700;
+}
